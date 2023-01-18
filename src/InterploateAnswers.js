@@ -204,7 +204,7 @@ export default null;
 export const interpolateAnswers = (
   document,
   answers,
-  companyName = null,
+  companyName,
   removeHeaderAndFooter = false
 ) => {
   if (
