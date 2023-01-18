@@ -227,6 +227,8 @@ export const interpolateAnswers = (
     }
   }
 
+  console.log(document);
+
   const interpolatedArray = document.map((e) => {
     // this constant will be turned to true if the whole paragrapgh needs to be removed
     let removed = false;
